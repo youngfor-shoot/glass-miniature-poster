@@ -1,0 +1,30 @@
+---
+name: glass-miniature-poster
+description: Create or revise editorial posters where a photoreal glass object becomes a usable space inhabited by tiny 2D hand-drawn adults, visibly refracted through the glass. Use for “透明玻璃 × 手绘微型人物”, a glass-cup pool, perfume-bottle elevator, or similar glass-interior scenes.
+---
+
+# 玻璃里的小世界
+
+Produce one raster poster. Let viewers recognize the photographic glass silhouette first, discover the space through a small everyday action, and then notice what the glass does to the people and objects inside.
+
+## Resolve the brief
+
+Accept a sentence or six fields: **透明核心物体**, **空间功能**, **手绘人物** (count, roles, actions, wardrobe), **内部元素**, **主文案**, **画幅比例**. Default to **9:16 portrait**. Keep explicit choices and copy verbatim. Infer a small cast and essential fixtures when unspecified. Write one short, image-led Chinese line when copy is omitted, unless the user asks for a text-free poster. A tiny English aside is optional. Ask only when conflicting requirements prevent a coherent scene. Treat attached posters as visual references unless the user identifies one as the edit target.
+
+## Read the visual references
+
+Open the closest original from [scene recipes](references/scene-recipes.md) before drafting. Consult the vase café or tumbler pool for exterior details, and the metro poster for the [handwritten title treatment](references/scene-recipes.md#handwritten-title-treatment). Adapt their placement, light, and lettering to the requested subject and exact copy.
+
+## Design the scene
+
+1. **Give the exterior a visible element of its own.** Set the vessel on a real surface with soft daylight, a contact shadow, and caustics. Unless the user asks for a bare exterior, choose a recognizable physical element with a readable portion beyond the glass silhouette. Use a prop tied to the activity, a figure at the threshold, a stem above the lip, or real foreground foliage. Name the element and its position in the prompt, such as a canvas book tote on the tabletop in front of and to the left of a reading-room bottle. Ground it with contact or depth, and keep it smaller in visual weight than the vessel. Wall texture, shadows, caustics, and title decorations do not fulfill this requirement.
+2. **Build a small working space inside the volume.** Pick a defining fixture and a person visibly using it. Ground the person on an interior floor, seat, stair, or water surface. Leave transparent areas around the activity where the vessel geometry allows. Keep enough of the near and far walls readable to see where the room begins and ends. Fit the floor and fixtures to the vessel; preserve the rim, shoulder, and base as visibly separate glass surfaces. An optional person at the rim or outside can mark the threshold if it serves the scene; the main activity takes place inside.
+3. **Show what changes across the boundary.** Choose a specific overlap the viewer can follow. For an open vessel, a stem may pass from clear air over the lip to the interior, or a seated person's legs may cross a rim and waterline. For a closed vessel, use a coat hem, tray, floor edge, or rail visible behind the curved face or bevel. Name the short contour segment that shifts, enlarges, or compresses behind the glass while its continuation stays readable. Put a near-wall highlight or rim in front of the appropriate subject. Carry the same daylight through the glass onto an interior surface or figure and out onto the ground where the light path supports it. Keep the action clear through the less distorted part of the vessel.
+4. **Keep each medium legible.** Render exterior surfaces, glass, water, and featured plants photographically. Keep miniatures visibly 2D with black-gray pencil lines, restrained colored pencil or watercolor, simple features, and elongated adult proportions. Use natural posture, with gaze directed into the activity. Fixtures may be drawn or lightly realistic. Confine drawing texture to the drawn elements, retaining it even where glass changes their appearance.
+5. **Compose the title as handwriting on the page.** Keep the vessel dominant and reserve an upper-left or otherwise natural pocket of clear space for the title. When the exact copy divides naturally, use a short opening beat and a longer scene line below with a loose offset. Use warm near-black, with visible thick–thin stroke changes, dry edges, and a gently irregular baseline. For the illustrated editorial treatment, place one small ochre doodle tied to the scene beside the opening beat and a short sweeping hand-drawn underline below the title. Add a tiny English aside only when it fits the brief and space. Respect explicit no-text or minimal-type directions.
+
+## Generate and verify
+
+Use the built-in image generator for a poster. Specify the named exterior element and its placement, the near glass wall, and the interior activity as three connected depths. Include the contour change, caustic landing surfaces, and title line breaks, stroke treatment, and any doodle or underline. When the current tool mode accepts visual references, identify their role separately from any edit target. Request the ratio explicitly and protect the title and vessel silhouette. For an edit, identify what to preserve and change only the requested area. For a prompt-only request or unavailable generation, provide a ready-to-run prompt and identify any unavailable capability.
+
+Inspect the render alongside the selected reference. At thumbnail size, identify the exterior element without reading the title, then check that the vessel dominates and the function inside is recognizable. At full size, follow the front-wall overlap, local contour distortion, and caustics inside and outside. Confirm the title has the intended line rhythm, dark varied strokes, and secondary accents. Read the Chinese character by character and verify the actual pixel ratio. If the exterior is bare or the title reads as a uniform faint line, revise that area and preserve the vessel and interior. If the room reads as a flat insert, rebuild exterior contact, clear glass volume, and front-wall overlap. State any material gap that remains.
